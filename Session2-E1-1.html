@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let indiemVL;
+    let indiemHH;
+    let indiemSH;
+    indiemVL=prompt("nhập điểm Vật Lý: ");
+    indiemHH=prompt("nhập diểm Hóa học");
+    indiemSH=prompt("nhập điểm Sinh học: ");
+    let diemVL=parseFloat(indiemVL);
+    let diemHH=parseFloat(indiemHH);
+    let diemSH=parseFloat(indiemSH);
+    let tbc=(diemVL+diemHH+diemSH)/3;
+    let sum=diemVL+diemHH+diemSH;
+    document.write("Diem trung binh = "+tbc);
+    document.write('</br>');
+    document.write("Tong diem = "+sum);
+</script>
+</body>
+</html>
